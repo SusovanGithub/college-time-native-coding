@@ -1,0 +1,8 @@
+NAME SUB_1(Marks) SUB_2(Marks) SUB_3(Marks) SUB_4(Marks)
+Susovan 30 30 40 100
+Shuvendu 30 100 40 30
+Sourav 100 30 30 40
+Sanada 80 80 80 80
+Priya 80 80 80 80
+Kanisha 80 80 80 80
+Bikram 30 30 40 10

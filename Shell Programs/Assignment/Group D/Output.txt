@@ -1,0 +1,395 @@
+Output
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 4.sh
+Enter a Number =14
+Number in reverse order =41
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 4.sh
+Enter a Number =483
+Number in reverse order =384
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 4.sh
+Enter a Number =64064       
+Number in reverse order =46046
+
+
+Output
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 5.sh
+Enter a Number =23
+23 is a Prime Number.
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 5.sh
+Enter a Number =18
+18 is Not a Prime Number.
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 5.sh
+Enter a Number =103
+103 is a Prime Number.
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 5.sh
+Enter a Number =97
+97 is a Prime Number.
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 5.sh
+Enter a Number =91
+91 is Not a Prime Number.
+
+
+Output
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 6.sh
+Enter the User Name =susovan
+susovan is already logged in.
+
+
+Output
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 7.sh
+Enter a Number =146
+146 is Not Divisible by 11.
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 7.sh
+Enter a Number =121
+121 is Divisible by 11.
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 7.sh
+Enter a Number =712457
+712457 is Not Divisible by 11.
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 7.sh
+Enter a Number =278828
+278828 is Divisible by 11.
+
+
+Output
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 8a.sh
+Enter the Line Number =6
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+* * * * * * 
+
+
+Output
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 8b.sh
+Enter the Line Number =7
+            * 
+          * * * 
+        * * * * * 
+      * * * * * * * 
+    * * * * * * * * * 
+  * * * * * * * * * * * 
+* * * * * * * * * * * * * 
+
+
+Output
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 8c.sh
+Enter the Line Number =8
+1 
+0 1 
+1 0 1 
+0 1 0 1 
+1 0 1 0 1 
+0 1 0 1 0 1 
+1 0 1 0 1 0 1 
+0 1 0 1 0 1 0 1 
+
+
+Output
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 8d.sh
+Enter the term numbers =10
+Sin x  = x - x^3/3! + x^5/5! - x^7/7! + x^9/9! - x^11/11! + x^13/13! - x^15/15! + x^17/17! - x^19/19! 
+
+
+Output
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 10.sh
+All possible combinations of 1, 2 and 3 :-
+111
+112
+113
+121
+122
+123
+131
+132
+133
+211
+212
+213
+221
+222
+223
+231
+232
+233
+311
+312
+313
+321
+322
+323
+331
+332
+333
+
+
+Output
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 11.sh
+1. Add Numbers.
+2. Subtract Numbers.
+3. Multiply Numbers.
+4. Divide Numbers.
+5. Exit.
+Enter your Choice =1
+Enter A =10
+Enter B =35
+Ans of 10+35 =45
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 11.sh
+1. Add Numbers.
+2. Subtract Numbers.
+3. Multiply Numbers.
+4. Divide Numbers.
+5. Exit.
+Enter your Choice =2
+Enter A =48
+Enter B =129
+Ans of 48-129 =-81
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 11.sh
+1. Add Numbers.
+2. Subtract Numbers.
+3. Multiply Numbers.
+4. Divide Numbers.
+5. Exit.
+Enter your Choice =3
+Enter A =30
+Enter B =5
+Ans of 30*5 =150
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 11.sh
+1. Add Numbers.
+2. Subtract Numbers.
+3. Multiply Numbers.
+4. Divide Numbers.
+5. Exit.
+Enter your Choice =9
+Wrong Choice.
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 11.sh
+1. Add Numbers.
+2. Subtract Numbers.
+3. Multiply Numbers.
+4. Divide Numbers.
+5. Exit.
+Enter your Choice =4
+Enter A =125
+Enter B =6
+Ans of 125/6 =20.83
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 11.sh
+1. Add Numbers.
+2. Subtract Numbers.
+3. Multiply Numbers.
+4. Divide Numbers.
+5. Exit.
+Enter your Choice =5
+
+
+Output
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ subl a.txt
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 13.sh
+Enter the File name =a.txt
+In file 'a.txt'
+Words =578
+lines =184
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 13.sh
+Enter the File name =13.sh
+In file '13.sh'
+Words =142
+lines =40
+
+
+Output
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 14.sh
+Enter the N (20<=N<=50) =25
+Sum =325
+Average =13.00
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 14.sh
+Enter the N (20<=N<=50) =30
+Sum =465
+Average =15.50
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 14.sh
+Enter the N (20<=N<=50) =60
+Your Entered Number is Not in Range.
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 14.sh
+Enter the N (20<=N<=50) =10
+Your Entered Number is Not in Range.
+
+
+Output
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ cat 1.sh
+# Assignment No :- 1
+# Write a shell script / program to generate Fibonacci series up to a certain number.
+
+echo -n "Enter the Extreme Limit ="
+read n
+a=0
+b=1
+while [ $a -le $n ]
+do
+	echo -n  "$a  "
+	c=$(($a+$b))
+	a=$b
+	b=$c
+done
+echo
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 15.sh
+Enter the File name =1.sh
+echo
+done
+b=$c
+a=$b
+c=$(($a+$b))
+echo -n  "$a  "
+do
+while [ $a -le $n ]
+b=1
+a=0
+read n
+echo -n "Enter the Extreme Limit ="
+
+# Write a shell script / program to generate Fibonacci series up to a certain number.
+# Assignment No :- 1
+
+
+Output
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 16.sh
+No Arguments Passes.
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 16.sh 1 2 3 4 5 6
+Arguments Passes as the Parameter:- 1  2  3  4  5  6  
+Sum of that Numbers =21
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 16.sh 10 23 34 21 643 27
+Arguments Passes as the Parameter:- 10  23  34  21  643  27  
+Sum of that Numbers =758
+
+
+Output
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ ls
+10.sh  12.sh  14.sh  16.sh  18.sh          19.sh  20.sh  22.sh  24.sh  26     28.sh  2.sh   31.sh  3.sh  5.sh  7.sh   8b.sh  8d.sh  a.txt
+11.sh  13.sh  15.sh  17.sh  18student.txt  1.sh   21.sh  23.sh  25.sh  27.sh  29.sh  30.sh  32.sh  4.sh  6.sh  8a.sh  8c.sh  9.sh
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 17.sh
+Enter the Existing file Extension =.sh
+Enter the Converting file Extension =.c
+Complete conversion
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ ls
+10.c  12.c  14.c  16.c  18.c           19.c  20.c  22.c  24.c  26    28.c  2.c   31.c  3.c  5.c  7.c   8b.c  8d.c  a.txt
+11.c  13.c  15.c  17.c  18student.txt  1.c   21.c  23.c  25.c  27.c  29.c  30.c  32.c  4.c  6.c  8a.c  8c.c  9.c
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 17.sh
+sh: 17.sh: No such file or directory
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ mv 17.c 17.sh
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 17.sh
+Enter the Existing file Extension =.c
+Enter the Converting file Extension =.sh
+Complete conversion
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ ls
+10.sh  12.sh  14.sh  16.sh  18.sh          19.sh  20.sh  22.sh  24.sh  26     28.sh  2.sh   31.sh  3.sh  5.sh  7.sh   8b.sh  8d.sh  a.txt
+11.sh  13.sh  15.sh  17.sh  18student.txt  1.sh   21.sh  23.sh  25.sh  27.sh  29.sh  30.sh  32.sh  4.sh  6.sh  8a.sh  8c.sh  9.sh
+
+
+Output
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 18.sh
+Data In Student File :-
+NAME SUB_1(Marks) SUB_2(Marks) SUB_3(Marks) SUB_4(Marks)
+Susovan 30 30 40 100
+Shuvendu 30 100 40 30
+Sourav 100 30 30 40
+Sanada 80 80 80 80
+Priya 80 80 80 80
+Kanisha 80 80 80 80
+Bikram 30 30 40 10
+
+Students Divisions :-
+Susovan      2nd division.
+Shuvendu      2nd division.
+Sourav      2nd division.
+Sanada      1st division.
+Priya      1st division.
+Kanisha      1st division.
+Bikram      Fail.
+
+
+Output
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 23.sh
+Enter the Size of Array =4
+Enter the Elements :- 
+A[0] =1
+A[1] =9
+A[2] =2
+A[3] =6
+Elements Are :-
+1 9 2 6 
+Elements After Sorting:-
+1 2 6 9 
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 23.sh
+Enter the Size of Array =9
+Enter the Elements :- 
+A[0] =9
+A[1] =3
+A[2] =1
+A[3] =5
+A[4] =34
+A[5] =0
+A[6] =23
+A[7] =45
+A[8] =82
+Elements Are :-
+9 3 1 5 34 0 23 45 82 
+Elements After Sorting:-
+0 1 3 5 9 23 34 45 82 
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 23.sh
+Enter the Size of Array =8
+Enter the Elements :- 
+A[0] =8
+A[1] =7
+A[2] =6
+A[3] =5
+A[4] =4
+A[5] =3
+A[6] =2
+A[7] =1
+Elements Are :-
+8 7 6 5 4 3 2 1 
+Elements After Sorting:-
+1 2 3 4 5 6 7 8 
+
+
+Output
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 27.sh
+Enter the Number =4
+Factorial of 4 is 24
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 27.sh
+Enter the Number =10
+Factorial of 10 is 3628800
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 27.sh
+Enter the Number =6
+Factorial of 6 is 720
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 27.sh
+Enter the Number =12
+Factorial of 12 is 479001600
+
+
+Output
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 31.sh
+Enter the File Name =4.sh
+In File '4.sh' the number of words that containing vowels is 28
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 31.sh
+Enter the File Name =5.sh
+In File '5.sh' the number of words that containing vowels is 51
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 31.sh
+Enter the File Name =a.txt
+In File 'a.txt' the number of words that containing vowels is 756
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 31.sh
+Enter the File Name =6.sh
+In File '6.sh' the number of words that containing vowels is 56
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 31.sh
+Enter the File Name =17.sh
+In File '17.sh' the number of words that containing vowels is 54
+
+
+Output
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 32.sh
+Enter a Name =Susovan Das
+Short from of the name =S.Das
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 32.sh
+Enter a Name =Sapen Kumar Dutta        
+Short from of the name =S.K.Dutta
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ sh 32.sh
+Enter a Name =Aritra Roy
+Short from of the name =A.Roy
+susovan@susovan-Inspiron-3542:~/sh_programs/Assignment$ 
