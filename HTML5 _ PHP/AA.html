@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grade System</title>
+</head>
+
+<SCRIPT type="text/javascript">
+	function f(f1) 
+	{
+		if(f1.sub1.value == "" || f1.sub2.value == "" || f1.sub3.value == "")
+		{
+			alert("Fill the all fields of number.....");
+			document.getElementById("a").innerHTML="";
+		}
+		else
+		{
+			var x = parseInt(f1.sub1.value) + parseInt(f1.sub2.value) + parseInt(f1.sub3.value);
+			x = x/3;
+			var a;
+			if(x<30)
+			{
+				a = "F";
+			}
+			else
+			{
+				if(x<60)
+				{
+					a = "B";
+				}
+				else
+				{
+					if(x<80)
+					{
+						a = "A";
+					}
+					else
+					{
+						a = "A+";
+					}
+				}
+			}
+			document.getElementById("a").innerHTML="The Grade is " + a;
+		}
+	}
+</SCRIPT>
+
+<body>
+
+	<form name="f1">
+		<table>
+			<tr>
+				<td><label>Subject 1</label></td>
+				<td><input type="number" name="sub1"></td>
+			</tr>
+			<tr>
+				<td><label>Subject 2</label></td>
+				<td><input type="number" name="sub2"></td>
+			</tr>
+			<tr>
+				<td><label>Subject 3</label></td>
+				<td><input type="number" name="sub3"></td>
+			</tr>
+			<tr>
+				<td colspan="2" valign="center"><input type="button" value="Submit" onclick="f(f1)"></td>
+			</tr>
+		</table>	
+	</form>
+
+	<h3 id="a"></h3>
+
+</body>
+</html>

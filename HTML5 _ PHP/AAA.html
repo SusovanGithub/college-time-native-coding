@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Item</title>
+
+<SCRIPT>
+	function f1(fr) 
+	{
+		var r = document.getElementsByName("r");
+		var q = document.getElementsByName("q");
+		var a = document.getElementsByName("a")
+		for (var i = 0; i < 3; i++) 
+		{
+			a[i].value = parseInt(q[i].value) * parseInt(r[i].value);
+		}
+	}
+</SCRIPT>
+
+</head>
+
+<body>
+	<form name="fr" method="post">
+		<table>
+			<tr>
+				<td>Rate</td>
+				<td>Quantity</td>
+				<td>Amount</td>
+			</tr>
+			<tr>
+				<td><input type="text" name="r"></td>
+				<td><input type="number" name="q"></td>
+				<td><input type="text" name="a" onkeypress="return false"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="r"></td>
+				<td><input type="number" name="q"></td>
+				<td><input type="text" name="a" onkeypress="return false"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="r"></td>
+				<td><input type="number" name="q"></td>
+				<td><input type="text" name="a" onkeypress="return false"></td>
+			</tr>
+			<tr>
+				<td colspan="4"><input type="button" onclick="f1(fr)" value="Submit"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

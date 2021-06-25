@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Information</title>
+	<SCRIPT>
+		function c()
+		{
+			var name=f1.nm.value ;
+			if(name == "")
+			{
+				//alert("Name can't NULL");
+				document.getElementById("A").innerHTML="Name cant NULL";
+			}
+			else
+			{
+				//alert(name);
+				document.getElementById("A").innerHTML="";
+			}
+			
+			name ="Name ="+f1.nm.value+"0 Adders ="+f1.add.value+"0 Gender ="+f1.gn.value+"0 city ="+f1.city.value;
+			name = name + "0 Hobby =" + f1.hb1.value + "," + f1.hb2.value + "," + f1.hb3.value;
+			name = name + "0 Date =" + f1.cal.value;
+			document.getElementById("B").innerHTML=name;
+		}
+	</SCRIPT>
+</head>
+
+
+<body>
+	<form name = "f1">
+		<table>
+			<tr>
+				<td><label>Name</label></td>
+				<td><input type="text" name="nm"><font color="red" id="A" ></font></td>
+			</tr>
+			<tr>
+				<td valign="top"><label>Adders</label></td>
+				<td><textarea rows="3" cols="30" name="add"></textarea></td>
+			</tr>
+			<tr>
+				<td valign="top"><label>Gender</label></td>
+				<td><input type="radio" name="gn" value="Male">Male<br><input type="radio" name="gn" value="Female">Female</td>
+			</tr>
+			<tr>
+				<td><label>City</label></td>
+				<td><select name="city">
+						<option value="Kolkata">Kolkata</option>
+						<option value="Delhi">Delhi</option>
+						<option value="Mumbai">Mumbai</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td valign="top"><label>Hobby</label>&nbsp;</td>
+				<td><input type=checkbox name="hb1" value="Reading">Reading<br>
+					<input type=checkbox name="hb2" value="Exploring">Exploring<br>
+					<input type="checkbox" name="hb3" value="Cycling">Cycling
+				</td>
+			</tr>
+			<tr>
+				<td><label>Date</label></td>
+				<td><input type="date" name="cal"></td>
+			</tr>
+			<tr><td><input type="button" value="submit" onclick="c()"></td></tr>
+		</table>	
+	</form>
+	<p id="B"></p>
+</body>
+</html>

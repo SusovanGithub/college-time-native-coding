@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Change</title>
+
+	<SCRIPT>
+		function f(f1) 
+		{
+			f1.image.src=f1.iname.value;
+		}
+		function f2(f1) 
+		{
+			var d = new Date();
+			f1.h.value = d.getHours();
+			f1.m.value = d.getMinutes();
+			f1.s.value = d.getSeconds();
+			window.setTimeout("f2(f1)",1000);
+		}
+		var image="";
+		var a=1;
+		function f3(f1) 
+		{
+			if(a>3)
+			{
+				a=1;
+			}
+			if( a==1 )
+			{
+				image="1.jpg";
+			}
+			if( a==2 )
+			{
+				image="2.jpg";
+			}
+			if( a==3 )
+			{
+				image="3.jpg";
+			}
+			a++;
+			document.f1.image1.src=image;
+			window.setTimeout("f3(f1)",3000);
+		}
+	</SCRIPT>
+
+</head>
+<body>
+
+	<form name="f1">
+		<select name = "iname" onchange="f(f1)">
+			<option value="1.jpg">1</option>
+			<option value="2.jpg">2</option>
+			<option value="3.jpg">3</option>
+		</select>
+		<br>
+		<img src="" height="200px" width="200px" name="image">
+		<br>
+		<br>
+		<input type="button" name="h">
+		<input type="button" name="m">
+		<input type="button" name="s">
+		<br>
+		<input type="button" value="Time" onclick="f2(f1)">
+		<br>
+		<input type="button" value="AA" onclick="f3(f1)">
+		<br>
+		<br>
+		<img src="" height="200px" width="200px" name="image1">
+	</form>
+
+
+</body>
+</html>
